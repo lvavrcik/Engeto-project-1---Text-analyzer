@@ -1,3 +1,2 @@
 # Engeto-project-1---Text-analyzer
-Code for text analyzer
-I have added new test text into this file.
+Code for 1st Engeto project - text analyzer
