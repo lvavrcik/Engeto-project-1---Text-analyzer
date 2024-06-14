@@ -1,5 +1,5 @@
 """
-Porject1.py - 1st Engeto project - text analyzer
+Project1.py - 1st Engeto project - text analyzer
 
 author: Lukáš Vavrčík
 email: lukasvavrcik@gmail.com
