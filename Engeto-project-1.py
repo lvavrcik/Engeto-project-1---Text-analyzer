@@ -94,9 +94,9 @@ numbers = list()
 word_lenghts = dict()
 
 for word in cleaned_text:
-    if word.istitle() and word[0].isalpha():
+    if word.istitle():
         titlecase_words.append(word)
-    elif word.isupper():
+    elif word.isupper() and word.isalpha():
         uppercase_words.append(word)
     elif word.islower():
         lowercase_words.append(word)
