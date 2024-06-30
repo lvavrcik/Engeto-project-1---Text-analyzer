@@ -94,7 +94,7 @@ numbers = list()
 word_lenghts = dict()
 
 for word in cleaned_text:
-    if word.istitle():
+    if word.istitle() and word.isalpha():
         titlecase_words.append(word)
     elif word.isupper() and word.isalpha():
         uppercase_words.append(word)
@@ -104,6 +104,8 @@ for word in cleaned_text:
         numbers.append(word)
     word_lenght = len(word)
     word_lenghts[word_lenght] = word_lenghts.get(word_lenght, 0) + 1
+
+titlecase_words.extend(uppercase_words)
 
 titlecase_word_count = len(titlecase_words)
 uppercase_word_count = len(uppercase_words)
