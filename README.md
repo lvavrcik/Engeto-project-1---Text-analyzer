@@ -8,6 +8,7 @@ Code for the 1st Engeto project - text analyzer
 # Text analyzer #
 ## Project description ##
 Aim of this project is to create a text analyzer - a program that can dig through text of any lenght and find out various information about it. 
+
 **Program description**: 
 - program asks the user for a login name and password
 - program checks whether entered data matches the data of the registered users (see below, **Registered users**)
