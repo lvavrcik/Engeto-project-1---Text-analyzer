@@ -7,26 +7,26 @@ Code for the 1st Engeto project - text analyzer
 
 # Text analyzer #
 ## Project description ##
-Aim of this project is to create a text analyzor - a program that can dig through text of any lenght and find out various information about it. 
+Aim of this project is to create a text analyzer - a program that can dig through text of any lenght and find out various information about it. 
 Program description: 
 - program asks the user for a login name and password
 - program checks whether entered data matches the data of the registered users (see below, Registered users)
 - if user is registered (data entered are correct), program greets the user and asks him to analyze the texts 
 - if user is not registered (data entered are not correct), program warns the user and terminates
 
-- program lets user to choose between three texts stored in TEXTS variables (see below, Texts to analyze):
+- program lets user to choose between three texts stored in the TEXTS variables (see below, Texts to analyze):
     - if user selects a number of the text that is not in the variables (1, 2 or 3), program warns the user and terminates
     - if user enters an input other than a number, program warns the user and terminates
 
 - program will calculates the following statistics for the selected text:
     - total number of words 
     - number of words starting with a capital letter 
-    - number of words written in capital letters
+    - number of words written in capital letters (upper case)
     - number of words written in lower case
     - number of numbers (not digits)
     - sum of all the numbers (not digits) in the text
 
-- program will also display a simple bar chart representing / visualising the frequency of different word enghts in the analyzed text
+- program will also display a simple bar chart representing / visualising the frequency of different word lenghts in the analyzed text
 
 ## Texts to analyze ## 
 TEXT 1: Situated about 10 miles west of Kemmerer,
