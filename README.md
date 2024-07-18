@@ -8,13 +8,13 @@ Code for the 1st Engeto project - text analyzer
 # Text analyzer #
 ## Project description ##
 Aim of this project is to create a text analyzer - a program that can dig through text of any lenght and find out various information about it. 
-Program description: 
+**Program description**: 
 - program asks the user for a login name and password
-- program checks whether entered data matches the data of the registered users (see below, Registered users)
+- program checks whether entered data matches the data of the registered users (see below, **Registered users**)
 - if user is registered (data entered are correct), program greets the user and asks him to analyze the texts 
 - if user is not registered (data entered are not correct), program warns the user and terminates
 
-- program lets user to choose between three texts stored in the TEXTS variables (see below, Texts to analyze):
+- program lets user to choose between three texts stored in the TEXTS variables (see below, **Texts to analyze**):
     - if user selects a number of the text that is not in the variables (1, 2 or 3), program warns the user and terminates
     - if user enters an input other than a number, program warns the user and terminates
 
@@ -29,7 +29,7 @@ Program description:
 - program will also display a simple bar chart representing / visualising the frequency of different word lenghts in the analyzed text
 
 ## Texts to analyze ## 
-TEXT 1: Situated about 10 miles west of Kemmerer,
+**TEXT 1**: Situated about 10 miles west of Kemmerer,
 Fossil Butte is a ruggedly impressive
 topographic feature that rises sharply
 some 1000 feet above Twin Creek Valley
@@ -38,7 +38,7 @@ above sea level. The butte is located just
 north of US 30N and the Union Pacific Railroad,
 which traverse the valley.
 
-TEXT 2: At the base of Fossil Butte are the bright
+**TEXT 2**: At the base of Fossil Butte are the bright
 red, purple, yellow and gray beds of the Wasatch
 Formation. Eroded portions of these horizontal
 beds slope gradually upward from the valley floor
@@ -47,7 +47,7 @@ to the top of the butte are the much steeper
 buff-to-white beds of the Green River Formation,
 which are about 300 feet thick.
 
-TEXT 3: The monument contains 8198 acres and protects
+**TEXT 3**: The monument contains 8198 acres and protects
 a portion of the largest deposit of freshwater fish
 fossils in the world. The richest fossil fish deposits
 are found in multiple limestone layers, which lie some
