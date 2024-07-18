@@ -1,31 +1,34 @@
 # Engeto-project-1---Text-analyzer
-Code for 1st Engeto project - text analyzer
+Code for the 1st Engeto project - text analyzer
+
+**Čeština:**  
+> [Přečtěte si českou verzi README](README_cs.md)
+
 
 # Text analyzer #
+## Project description ##
+Aim of this project is to create a text analyzor - a program that can dig through text of any lenght and find out various information about it. 
+Program description: 
+- program asks the user for a login name and password
+- program checks whether entered data matches the data of the registered users (see below, Registered users)
+- if user is registered (data entered are correct), program greets the user and asks him to analyze the texts 
+- if user is not registered (data entered are not correct), program warns the user and terminates
 
-## Popis projektu ##
-Cílem tohoto projektu je vytvořit textový analyzátor - program, který se bude umět prokousat libovolně dlouhým textem a zjistit o něm různé informace.
-Popis programu: 
-- program si vyžádá od uživatele přihlašovací jméno a heslo
-- zjistí, zda vložené údaje odpovídají údajům registrovaných uživatelů (viz níže)
-- pokud je uživatel registrovaný (jsou vloženy správné údaje), program uživatele pozdraví a vyzve ho k analýze textů
-- pokud uživatel není registrovaný (jsou vloženy nesprávné údaje), program jej upozorní a ukončí se
+- program lets user to choose between three texts stored in TEXTS variables (see below, Texts to analyze):
+    - if user selects a number of the text that is not in the variables (1, 2 or 3), program warns the user and terminates
+    - if user enters an input other than a number, program warns the user and terminates
 
-- program nechá uživatele vybrat mezi třemi texty, uloženými v proměnné TEXTS:
-    - pokud uživatel vybere takové číslo textu, které není v zadání, program jej upozorní a skončí
-    - pokud uživatel zadá jiný vstup než číslo, program jej rovněž upozorní a skončí
+- program will calculates the following statistics for the selected text:
+    - total number of words 
+    - number of words starting with a capital letter 
+    - number of words written in capital letters
+    - number of words written in lower case
+    - number of numbers (not digits)
+    - sum of all the numbers (not digits) in the text
 
-- pro vybraný text spočítá následující statistiky:
-    - počet slov
-    - počet slov začínajících velkým písmenem
-    - počet slov psaných velkými písmeny
-    - počet slov psaných malými písmeny
-    - počet čísel (ne cifer)
-    - sumu všech čísel (ne cifer) v textu
+- program will also display a simple bar chart representing / visualising the frequency of different word enghts in the analyzed text
 
-- program zobrazí jednoduchý sloupcový graf, který bude reprezentovat četnost různých délek slov v textu
-
-## Texty k analýze ## 
+## Texts to analyze ## 
 TEXT 1: Situated about 10 miles west of Kemmerer,
 Fossil Butte is a ruggedly impressive
 topographic feature that rises sharply
@@ -54,7 +57,7 @@ other freshwater genera and herring similar to those
 in modern oceans. Other fish such as paddlefish,
 garpike and stingray are also present.
 
-## Registrovaní uživatelé ##
+## Registered users ##
 user |   password
 
 bob  |     123 
